@@ -1,0 +1,158 @@
+/* Education.css */
+
+.sc-eGAhfa {
+    padding: 20px;
+  }
+  
+  .sc-hAsxaJ {
+    margin-bottom: 40px;
+  }
+
+  .sc-kYWVYA {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .sc-yeoIj {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .MuiTimeline-root {
+    position: relative;
+  }
+  
+  .MuiTimelineItem-root {
+    display: flex;
+    padding-bottom: 20px;
+  }
+  
+  .MuiTimelineItem-root:last-child {
+    padding-bottom: 0;
+  }
+  
+  .MuiTimelineItem-missingOppositeContent .MuiTimelineContent-root {
+    margin-left: 0;
+  }
+  
+  .MuiTimelineContent-root {
+    flex-grow: 1;
+  }
+  
+  .sc-duzrYq {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .sc-dkdnUF {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sc-WCkqM {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .sc-ikjQzJ {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .sc-tsFYE {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .sc-bhVIhj {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .sc-brCFrO {
+    margin-top: 5px;
+  }
+  
+  .sc-gITdmR {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .MuiTimelineDot-root {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+  
+  .MuiTimelineConnector-root {
+    height: 100%;
+  }
+ .headinghai{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: aqua;
+    text-shadow: 0px 2px 2px aqua;
+    margin-top: 50px;
+    
+  }
+
+  .secondhalf{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: white;
+  }
+
+.educard{
+  margin-top: 100px;
+  /* border: solid green 2px; */
+  width: 800px;
+}
+.eduname{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.degree{
+  color: aqua;
+}
+.edudesc{
+  font-size: 15px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.secondhalf{
+  padding-top: 30px;
+  border: double aqua 4px;
+  color: white;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px aqua;
+  margin-bottom: 20px;
+}
+
+.secondhalf:hover{
+  background-color: rgba(0, 255, 255, 0.224);
+  transform: scale(0.9);
+  transition-duration: 1s;
+}
+
+.hemlo{
+  color: white;
+  text-align: center;
+  font-size: larger;
+  margin-top: 20px;
+}
+.edusection{
+  border-right: dotted aqua 5px;
+  border-left: dotted aqua 5px;
+  width: 880px;
+}
