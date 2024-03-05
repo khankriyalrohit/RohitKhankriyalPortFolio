@@ -29,11 +29,13 @@ label {
 
 input[type="text"],
 input[type="email"],
+
 textarea {
     width: 100%;
     width: 580px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #05daee;
+    box-shadow: 2px 2px 4px aqua;
     border-radius: 5px;
     font-size: 16px;
 }
@@ -59,4 +61,179 @@ button[type="submit"]:hover {
     color: black;
     border: solid aqua 2px;
 }
+.hemlocontact{
+    /* width: 900px; */
+    border: 1px solid #05daee;
+    box-shadow: 2px 2px 4px aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.labelmessage{
+    margin-bottom: -90px;
+}
 
+  
+  /* Tablet portrait */
+  @media screen and (max-width: 768px) and (orientation: portrait) {
+
+    .container {
+        width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+    
+    form {
+        margin-top: 20px;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        width: 380px;
+        color: #555;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    
+    textarea {
+        width: 100%;
+        width: 380px;
+        padding: 10px;
+        border: 1px solid #05daee;
+        box-shadow: 2px 2px 4px aqua;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    textarea {
+        resize: none;
+    }
+    
+    button[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #0bd2f0;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #ffffff;
+        color: black;
+        border: solid aqua 2px;
+    }
+    .hemlocontact{
+        /* width: 900px; */
+        border: 1px solid #05daee;
+        box-shadow: 2px 2px 4px aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .labelmessage{
+        margin-bottom: 5px;
+    }
+
+
+  }
+  
+  /* Mobile phone */
+  @media screen and (max-width: 480px) {
+    .container {
+        width: 290px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+    
+    form {
+        margin-top: 20px;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        width: 380px;
+        color: #555;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    
+    textarea {
+        width: 100%;
+        width: 245px;
+        padding: 10px;
+        border: 1px solid #05daee;
+        box-shadow: 2px 2px 4px aqua;
+        border-radius: 5px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    textarea {
+        resize: none;
+    }
+    
+    button[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #0bd2f0;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #ffffff;
+        color: black;
+        border: solid aqua 2px;
+    }
+    .hemlocontact{
+        /* width: 900px; */
+        border: 1px solid #05daee;
+        box-shadow: 2px 2px 4px aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 230px;
+    }
+    .labelmessage{
+        margin-bottom: 5px;
+    }
+
+  }

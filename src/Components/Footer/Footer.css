@@ -16,7 +16,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-   
 }
 
 .footer-heading {
@@ -63,3 +62,8 @@
 .footer-text {
     margin-top: 20px;
 }
+@media screen and (max-width: 480px) {
+   .footer-link{
+    font-size: small;
+   }
+  }

@@ -93,3 +93,131 @@
   height: 400px;
   box-shadow: 0 7px 7px 0 aqua;
 }
+
+/* Laptop 15 inch */
+@media screen and (min-width: 1441px) {
+
+}
+
+/* Tablet landscape */
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+
+  .sc-eKBdFk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 270px;
+    border: double aqua 3px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .sc-eKBdFk:hover{
+    background-color: rgba(0, 255, 255, 0.315);
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+  .logohaig{
+     border: solid aqua 2px;
+  }
+  .position{
+    color: aqua;
+    font-size: large;
+  }
+  .datehai{
+    color: aqua;
+  }
+  .sc-bUbCnL {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sc-kIKDeO {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .sc-hNKHps {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .sc-jTYCaT {
+    font-size: 10px;
+    /* color: #666; */
+  }
+  b{
+    color: aqua;
+  }
+
+  .sc-jOhDuK {
+    text-align: left;
+  }
+  
+  .sc-hlnMnd {
+    font-size: 10px;
+  }
+  
+  .sc-jQHtVU {
+    margin-top: 10px;
+  }
+  
+  .sc-fvNpTx {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .sc-fctJkW {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+  
+  .sc-ZyCDH {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+  }
+.description{
+   font-size: medium;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skillhai{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.experiencecardhai{
+  height: 400px;
+  box-shadow: 0 7px 7px 0 aqua;
+}
+}
+
+/* Tablet portrait */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .sc-eKBdFk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    /* background-color: #f0f0f0; */
+    border: double aqua 3px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+}
+
+/* Mobile phone */
+@media screen and (max-width: 480px) {
+
+}

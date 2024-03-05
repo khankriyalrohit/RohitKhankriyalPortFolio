@@ -1,7 +1,7 @@
 .skillscontainer{
     display: flex;
     flex-wrap: wrap;
-    margin: 100px;
+    margin: 100px 30px;
     justify-content: center;
     margin-bottom: -20px;   
 }

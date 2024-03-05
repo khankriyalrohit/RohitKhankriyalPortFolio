@@ -7,9 +7,9 @@ const EducationCard = ({ institution, degree, duration, grade, description, imag
       <div className="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight css-68bxna">
         <div className="sc-evrZIY tlqLC ">
           <div className="sc-fIavCj jZZHaY">
-            <img src={image} className="sc-duzrYq cCGrAV" alt={institution} />
+            <img src={image} className="sc-duzrYq cCGrAV logoinsititute" alt={institution} />
             <div className="sc-dkdnUF kerang">
-              <div className="sc-WCkqM fRQwzv">{institution}</div>
+              <div className="sc-WCkqM fRQwzv institutehai">{institution}</div>
               <div className="sc-ikjQzJ dtZwIA degree">{degree}</div>
               <div className="sc-tsFYE ccHgXk">{duration}</div>
             </div>

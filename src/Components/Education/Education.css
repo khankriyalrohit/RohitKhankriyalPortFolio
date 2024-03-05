@@ -156,3 +156,109 @@
   border-left: dotted aqua 5px;
   width: 880px;
 }
+/* 15 inch Laptop */
+@media screen and (min-width: 1441px) {
+
+}
+
+/* Tablet landscape */
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .educard{
+    margin-top: 100px;
+    /* border: solid green 2px; */
+    width: 600px;
+  }
+  .edudesc{
+    font-size: 14px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .edusection{
+    border-right: dotted aqua 5px;
+    border-left: dotted aqua 5px;
+    width: 680px;
+  }
+}
+
+/* Tablet portrait */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .educard{
+    margin-top: 100px;
+    /* border: solid green 2px; */
+    width: 400px;
+    height: 700px;
+  }
+  .eduname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .degree{
+    color: aqua;
+  }
+  .edudesc{
+    font-size: 12px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -10px;
+  }
+  span {
+    line-height: -2;
+  }
+  .secondhalf{
+    padding-top: 30px;
+    border: double aqua 4px;
+    color: white;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px aqua;
+    margin-bottom: 20px;
+  }
+  
+  .secondhalf:hover{
+    background-color: rgba(0, 255, 255, 0.224);
+    transform: scale(0.9);
+    transition-duration: 1s;
+  }
+  
+  .hemlo{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    margin-top: 20px;
+  }
+  .edusection{
+    border-right: dotted aqua 5px;
+    border-left: dotted aqua 5px;
+    width: 480px;
+    height: 1200px;
+  }
+  .institutehai{
+    font-size: large;
+  }
+}
+
+/* Mobile phone */
+@media screen and (max-width: 480px) {
+  .educard{
+    margin-top: 100px;
+    /* border: solid green 2px; */
+    width: 380px;
+    height: 700px;
+  }
+  .edusection{
+    border-right: dotted aqua 5px;
+    border-left: dotted aqua 5px;
+    width: 460px;
+    height: 1200px;
+  }
+  .logoinsititute{
+    margin-top: -30px;
+  }
+  .edudesc{
+    font-size: 11px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -10px;
+  }
+}

@@ -47,8 +47,8 @@ const Contact = () => {
                     <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="message">Message</label>
-                    <textarea id="message" name="message" rows="5" value={formData.message} onChange={handleChange} required />
+                    <label htmlFor="message" className = "labelmessage">Message</label>
+                    <textarea id="message" name="message" rows="5" className = "hemlocontact"value={formData.message} onChange={handleChange} required />
                 </div>
                 <button type="submit">Send Message</button>
             </form>
